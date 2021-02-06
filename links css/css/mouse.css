@@ -1,0 +1,234 @@
+/*Codigo de la PAGINACION PRIMERA PARTE DE MOUSE LOGITECH  galería-slider**/
+
+.mouse-logitech1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.1"]:checked ~ .mouse-logitech1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.2"]:checked ~ .mouse-logitech1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.3"]:checked ~ .mouse-logitech1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE MOUSE LOGITECH  galería-slider**/
+
+.mouse-logitech2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.4"]:checked ~ .mouse-logitech2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.5"]:checked ~ .mouse-logitech2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.6"]:checked ~ .mouse-logitech2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION TERCERA PARTE DE MOUSE LOGITECH  galería-slider**/
+
+.mouse-logitech3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.7"]:checked ~ .mouse-logitech3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.8"]:checked ~ .mouse-logitech3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.9"]:checked ~ .mouse-logitech3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la PAGINACION PRIMERA PARTE DE MOUSE DRAGON  galería-slider**/
+
+.mouse-dragon1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.10"]:checked ~ .mouse-dragon1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.11"]:checked ~ .mouse-dragon1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.12"]:checked ~ .mouse-dragon1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE MOUSE DRAGON  galería-slider**/
+
+.mouse-dragon2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.13"]:checked ~ .mouse-dragon2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.14"]:checked ~ .mouse-dragon2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.15"]:checked ~ .mouse-dragon2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION TERCERA PARTE DE MOUSE DRAGON  galería-slider**/
+
+.mouse-dragon3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.16"]:checked ~ .mouse-dragon3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.17"]:checked ~ .mouse-dragon3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.18"]:checked ~ .mouse-dragon3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION PRIMERA PARTE DE MOUSE RAZER  galería-slider**/
+
+.mouse-razer1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.19"]:checked ~ .mouse-razer1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.20"]:checked ~ .mouse-razer1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.21"]:checked ~ .mouse-razer1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE MOUSE RAZER  galería-slider**/
+
+.mouse-razer2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.22"]:checked ~ .mouse-razer2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.23"]:checked ~ .mouse-razer2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.24"]:checked ~ .mouse-razer2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE MOUSE RAZER galería-slider**/
+
+.mouse-razer3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="5.25"]:checked ~ .mouse-razer3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5.26"]:checked ~ .mouse-razer3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="5.27"]:checked ~ .mouse-razer3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}

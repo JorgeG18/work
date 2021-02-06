@@ -1,0 +1,135 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .img-principal{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background: url(../../img/principal2.jpg);
+    
+}
+
+.container .text-principal{
+ 
+    position: absolute;
+    top: 35vh;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+.container .text-principal h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: 3px 3px #000000;
+}
+
+.container .text-principal span{
+    border-bottom: 4px solid #0078ff;
+}
+
+.container .text-principal p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 3px 3px #000000;
+}
+
+.container .text-principal a h3{
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 150px;
+    padding: 10px;
+    border: 4px solid #ffffff;
+    position: relative;
+    left: 44%;
+  
+    
+}
+
+.container .text-principal a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container .text-principal a h3:hover{
+    background-color: rgba(255,255,255, 0.8);
+    color:  #0078ff;
+    transition: ease all 1s;
+    border: 4px solid #0078ff;
+}
+
+.container .text-principal .texto-anim{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 3px 3px #000000;
+}
+.container .text-principal h2{
+    margin-top:15px ;
+    text-shadow: 3px 3px #000000;
+}
+
+
+@media screen and (max-width: 768px){
+    .container .text-principal a h3{
+        position: relative;
+        left: 33%;
+    }
+
+    .container .text-principal p{
+        font-size: 17px;
+        width: 95%;
+        position: relative;
+        left: 10px;
+    }
+
+    .container .text-principal h2{
+        font-size: 18px;
+        padding-top: 10px;
+        
+    }
+
+   .container .text-principal h1{
+       font-size: 50px;
+   }
+
+   .container .text-principal a h3{
+       left: 40%;
+   }
+}
+
+@media screen and (max-width: 600px){
+    .container .text-principal{
+        top: 30%;
+     
+    }
+    .container .text-principal h1{
+        font-size: 30px;
+    }
+
+    .container .text-principal p{
+        font-size: 15px;
+       
+    }
+
+    .container .text-principal h2{
+        font-size: 15px;
+        left: 0%;
+    }
+
+    .container .text-principal h2 span{
+        font-size: 10px;
+    }
+
+    .container .text-principal a h3{
+        left: 26%;
+    }
+}

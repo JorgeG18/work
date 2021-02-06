@@ -1,0 +1,550 @@
+
+/*Codigo del primera parte HYPER X para la páginación de la galería-slider**/
+
+.slide{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="1"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="2"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="3"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la segunda parte HYPER X para la páginación de la galería-slider**/
+
+.slider{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="4"]:checked ~ .slider{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="5"]:checked ~ .slider{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="6"]:checked ~ .slider{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la tercera parte HYPER X para la páginación de la galería-slider**/
+
+.slid{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+}
+
+input[id="7"]:checked ~ .slid{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="8"]:checked ~ .slid{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="9"]:checked ~ .slid{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la primera parte RYZEN para la páginación de la galería-slider**/
+
+.slider-ryzen1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="10"]:checked ~ .slider-ryzen1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="11"]:checked ~ .slider-ryzen1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="12"]:checked ~ .slider-ryzen1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la segunda parte RYZEN para la páginación de la galería-slider**/
+
+.slider-ryzen2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="13"]:checked ~ .slider-ryzen2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="14"]:checked ~ .slider-ryzen2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="15"]:checked ~ .slider-ryzen2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la tercera parte RYZEN para la páginación de la galería-slider**/
+
+.slider-ryzen3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="16"]:checked ~ .slider-ryzen3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="17"]:checked ~ .slider-ryzen3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="18"]:checked ~ .slider-ryzen3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la PRIMERA parte LOGITECH para la páginación de la galería-slider**/
+
+.slider-logitech1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="19"]:checked ~ .slider-logitech1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="20"]:checked ~ .slider-logitech1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="21"]:checked ~ .slider-logitech1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la Segunda parte LOGITECH para la páginación de la galería-slider**/
+
+.slider-logitech2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="22"]:checked ~ .slider-logitech2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="23"]:checked ~ .slider-logitech2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="24"]:checked ~ .slider-logitech2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la Tercera parte LOGITECH para la páginación de la galería-slider**/
+
+.slider-logitech3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="25"]:checked ~ .slider-logitech3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="26"]:checked ~ .slider-logitech3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="27"]:checked ~ .slider-logitech3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PRIMERA PARTE CORSAIR para la páginación de la galería-slider**/
+
+.slider-corsair1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="28"]:checked ~ .slider-corsair1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="29"]:checked ~ .slider-corsair1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="30"]:checked ~ .slider-corsair1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la SEGUNDA PARTE CORSAIR para la páginación de la galería-slider**/
+
+.slider-corsair2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="31"]:checked ~ .slider-corsair2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="32"]:checked ~ .slider-corsair2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="33"]:checked ~ .slider-corsair2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la Tercera parte CORSAIR para la páginación de la galería-slider**/
+
+.slider-corsair3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="34"]:checked ~ .slider-corsair3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="35"]:checked ~ .slider-corsair3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="36"]:checked ~ .slider-corsair3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la PRIMERA parte ANIVIA para la páginación de la galería-slider**/
+
+.slider-anivia1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="37"]:checked ~ .slider-anivia1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="38"]:checked ~ .slider-anivia1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="39"]:checked ~ .slider-anivia1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la SEGUNDA parte ANIVIA para la páginación de la galería-slider**/
+
+.slider-anivia2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="40"]:checked ~ .slider-anivia1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="41"]:checked ~ .slider-anivia2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="42"]:checked ~ .slider-anivia2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la TERCERA parte ANIVIA para la páginación de la galería-slider**/
+
+.slider-anivia3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="43"]:checked ~ .slider-anivia3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="44"]:checked ~ .slider-anivia3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="45"]:checked ~ .slider-anivia3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PRIMERA parte SADES para la páginación de la galería-slider**/
+
+.slider-sades1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="46"]:checked ~ .slider-sades1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="47"]:checked ~ .slider-sades1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="48"]:checked ~ .slider-sades1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la SEGUNDA PARTE DE SADES para la páginación de la galería-slider**/
+
+.slider-sades2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="49"]:checked ~ .slider-sades2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="50"]:checked ~ .slider-sades2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="51"]:checked ~ .slider-sades2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la TERCERA PARTE DE SADES para la páginación de la galería-slider**/
+
+.slider-sades3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="52"]:checked ~ .slider-sades3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="53"]:checked ~ .slider-sades3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="54"]:checked ~ .slider-sades3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PRIMERA PARTE DE STEELSERIES para la páginación de la galería-slider**/
+
+.slider-steel1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="55"]:checked ~ .slider-steel1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="56"]:checked ~ .slider-steel1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="57"]:checked ~ .slider-steel1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la SEGUNDA PARTE DE STEELSERIES para la páginación de la galería-slider**/
+
+.slider-steel2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="58"]:checked ~ .slider-steel2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="59"]:checked ~ .slider-steel2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="60"]:checked ~ .slider-steel2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la TERCERA PARTE DE STEELSERIES para la páginación de la galería-slider**/
+
+.slider-steel3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="61"]:checked ~ .slider-steel3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="62"]:checked ~ .slider-steel3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="63"]:checked ~ .slider-steel3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}

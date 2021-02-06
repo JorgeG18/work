@@ -1,0 +1,239 @@
+
+
+/*Codigo de la PAGINACION PRIMERA PARTE DE TECLADOS RAZER  galería-slider**/
+
+.teclad-ryzer1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.1"]:checked ~ .teclad-ryzer1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.2"]:checked ~ .teclad-ryzer1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.3"]:checked ~ .teclad-ryzer1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE TECLADOS RAZER  galería-slider**/
+
+.teclad-ryzer2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.4"]:checked ~ .teclad-ryzer2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.5"]:checked ~ .teclad-ryzer2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.6"]:checked ~ .teclad-ryzer2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE TECLADOS RAZER  galería-slider**/
+
+.teclad-ryzer3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.7"]:checked ~ .teclad-ryzer3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.8"]:checked ~ .teclad-ryzer3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.9"]:checked ~ .teclad-ryzer3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la PAGINACION PRIMERA PARTE DE TECLADOS HYPERX  galería-slider**/
+
+.teclad-hyperx1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.10"]:checked ~ .teclad-hyperx1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.11"]:checked ~ .teclad-hyperx1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.12"]:checked ~ .teclad-hyperx1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE TECLADOS HYPERX  galería-slider**/
+
+.teclad-hyperx2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.13"]:checked ~ .teclad-hyperx2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.14"]:checked ~ .teclad-hyperx2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.15"]:checked ~ .teclad-hyperx2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION TERCERA PARTE DE TECLADOS HYPERX  galería-slider**/
+
+.teclad-hyperx3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.16"]:checked ~ .teclad-hyperx3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.17"]:checked ~ .teclad-hyperx3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.18"]:checked ~ .teclad-hyperx3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION PRIMERA PARTE DE TECLADOS ROCCA  galería-slider**/
+
+.teclad-rocca1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.19"]:checked ~ .teclad-rocca1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.20"]:checked ~ .teclad-rocca1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.21"]:checked ~ .teclad-rocca1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE TECLADOS ROCCA  galería-slider**/
+
+.teclad-rocca2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.22"]:checked ~ .teclad-rocca2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.23"]:checked ~ .teclad-rocca2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.24"]:checked ~ .teclad-rocca2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la PAGINACION TERCERA PARTE DE TECLADOS ROCCA  galería-slider**/
+
+.teclad-rocca3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="4.25"]:checked ~ .teclad-rocca3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="4.26"]:checked ~ .teclad-rocca3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="4.27"]:checked ~ .teclad-rocca3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}

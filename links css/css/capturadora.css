@@ -1,0 +1,23 @@
+.capturadoras1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="6.1"]:checked ~ .capturadoras1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="6.2"]:checked ~ .capturadoras1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="6.3"]:checked ~ .capturadoras1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}

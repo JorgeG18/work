@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>GamingPeriferics</title>
+
+    <!---LINK DE CSS-->
+    <link rel="stylesheet" href="./links css/css/main.css">
+    <link rel="stylesheet" href="./links css/css/slider.css">
+    <link rel="stylesheet" href="./links css/css/menu.css">
+    <link rel="stylesheet" href="./links css/css/productos.css">
+    <link rel="stylesheet" href="./links css/css/pagina-principal.css">
+    <link rel="stylesheet" href="./links css/css/footer.css">
+    <link rel="stylesheet" href="./links css/css/carrusel_otrosp.css">
+    <link rel="stylesheet" href="./links css/css/headset.css">
+    <link rel="stylesheet" href="./links css/css/alfombrillas.css">
+    <link rel="stylesheet" href="./links css/css/teclado.css">
+    <link rel="stylesheet" href="./links css/css/mouse.css">
+    <link rel="stylesheet" href="./links css/css/styles_productos.css">
+    
+    <!--LINK FUENTES-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <!--Link Iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+ 
+</head>
+<body>
+    <header>
+        <div class="nav-container" style="background-color: black;">
+            <nav class="nav-checkbox">
+                <label for="tab-nav" class="tab-nav-label"><i class="fas fa-bars"></i></label> 
+                <a href="index.html" class="nav-logo" onclick="mostrar1()">GAMING PERIFERICS</a>
+                <input type="checkbox" id="tab-nav" class="tab-nav">
+               
+                <ul class="tab-content">
+                    <li><a class="accion" class="mostrar" href="#">INICIO</a></li>
+                    <li><a class="borde" href="productos.html">Productos</a></li>
+                    <li><a href="#about-us">Acerca de</a></li>
+                    <li><a href="#blog">Contacto</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+   </header> 
+      <!---BARRA LATERAL DE LAS MARCAS-->
+      <div id="services">
+   <div class="container-barra">
+        <div class="lateral">
+            <div class="barra-marcas">
+                  <h2>MOUSE</h2>
+                  <div class="border-bottom"></div>
+                  <a href="#" id="razer-m"   onclick="mouse_logitech()" >Mouse Logitech</a>
+                  <a href="#" id="reddragon-m"   onclick="mousered_dragon()" >Mouse Red Dragon</a>
+                  <a href="#" id="razer-m"   onclick="mouse_razer()" >Mouse Razer</a>
+                
+
+            </div>
+
+           
+        </div>
+    
+        <!--GRIDS QUE SE MOSTRARÁN-->
+     
+        <div class="modal" id="modal">
+            <div class="modal__content">
+                <img src="" alt="" class="modal__img" id="modal__img">
+            </div>
+            <div class="modal__boton" id="modal__boton">X</div>
+        </div>
+
+        <div id="mouse-logitech">
+
+            <div class="grid">
+                <!--PRIMER MOUSE LOGITECH-->
+                <section class="grid-headset">
+                    <div class="headset-img1">
+                        <div class="container-all">
+
+                            <input type="radio" id="5.1" name="image-slide" hidden/>
+                            <input type="radio" id="5.2" name="image-slide" hidden/>
+                            <input type="radio" id="5.3" name="image-slide" hidden/>
+                    
+                            <div class="mouse-logitech1">
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/logitech1.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/logitech2.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/logitech3.png" class="gallery__img gallery_img--big">
+                                </div>
+                            </div>
+                           
+                            <div class="pagination">
+                               
+                                <label class="pagination-item" for="5.1">
+                                    <img src="./img/mouse/logitech1.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.2">
+                                    <img src="./img/mouse/logitech2.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.3">
+                                    <img src="./img/mouse/logitech3.png">
+                                </label>
+                               
+                                </div>
+                            </div>
+                            </div>
+                            <div class="txt-headset1">
+                                <h2><span>Logitech G502 Lightspeed </span> - Ratón inalámbrico para juegos con sensor HERO 25K, compatible con PowerPlay, pesos ajustables y Lightsync RGB - negro | Plataforma de hadware: PC | Sistema Operativo: Mac OS X 10.7 Lion, Chrome OS, Windows 7</h2>
+                                <p>Precio: <span>US$ 149.99</span></p>
+                                <h4>Sobre este articulo</h4>
+                                <p>
+                                    <li>Carga inalámbrica PowerPlay: no te preocupes por la duración de la batería de nuevo.</li>
+                                    <li>Ratón inalámbrico de velocidad ligera: tecnología inalámbrica exclusiva Logitech G utilizada por jugadores profesionales en competiciones en todo el mundo.</li>    
+                                    <li>Sensor Hero 25K a través de una actualización de software de G HUB, esta actualización es gratuita para todos los jugadores</li>   
+                                    <li>11 botones personalizables y rueda de desplazamiento rápido</li>    
+                                    <li>Tecnología Lightsync RGB: personaliza completamente la iluminación RGB desde casi 16,8 millones de colores</li>    
+                                </p>
+                                </div>
+                    
+                </section>
+                <div class="border-grid"></div> 
+                 <!--SEGUNDO MOUSE LOGITECH-->
+           
+               <section class="grid-headset">
+                <div class="headset-img1">
+                    <div class="container-all">
+
+                        <input type="radio" id="5.4" name="image-slide" hidden/>
+                        <input type="radio" id="5.5" name="image-slide" hidden/>
+                        <input type="radio" id="5.6" name="image-slide" hidden/>
+                
+                        <div class="mouse-logitech2">
+                
+                            <div class="item-slide">
+                                <img src="./img/mouse/logitech4.png" class="gallery__img gallery_img--big">
+                            </div>
+                
+                            <div class="item-slide">
+                                <img src="./img/mouse/logitech5.png" class="gallery__img gallery_img--big">
+                            </div>
+                
+                            <div class="item-slide">
+                                <img src="./img/mouse/logitech6.png" class="gallery__img gallery_img--big">
+                            </div>
+                        </div>
+                       
+                        <div class="pagination">
+                           
+                            <label class="pagination-item" for="5.4">
+                                <img src="./img/mouse/logitech4.png">
+                            </label>
+                            
+                            <label class="pagination-item" for="5.5">
+                                <img src="./img/mouse/logitech5.png">
+                            </label>
+                            
+                            <label class="pagination-item" for="5.6">
+                                <img src="./img/mouse/logitech6.png">
+                            </label>
+                           
+                            </div>
+                        </div>
+                        </div>
+                        <div class="txt-headset1">
+                            <h2><span>Logitech Ratón inalámbrico para juegos G703 Lightspeed</span> - sensor Hero 25K, compatible con PowerPlay, Lightsync RGB, liviano 95G + 10G opcional, 100-25, 600 DPI, empuñaduras laterales de goma - Negro | Orientación de la mano: </h2>
+                            <p>Precio: <span>US$ 73.99</span></p>
+                            <h4>Sobre este articulo</h4>
+                            <p>
+                                <li>Carga inalámbrica Power Play: no te preocupes por la duración de la batería de nuevo.</li>
+                                <li>Sensor Hero 16 K: nuestro más avanzado, con seguimiento 1:1, 400+ IPS, y 100-16, 000 Max DPI, además de cero alisado, filtrado o aceleración, y 10 veces la eficiencia energética de la generación anterior.</li>    
+                                <li>Velocidad de la luz inalámbrica: respuesta y conectividad de nivel profesional para un juego de larga duración, alto rendimiento, con un peso de 3.35 oz.</li>   
+                                <li>Máxima comodidad y calidad: reúne comodidad, durabilidad y rendimiento con un diseño cómodo, agarres laterales de goma.</li>    
+                                <li>Sincronización de luz RGB: la iluminación de espectro completo responde a la acción del juego, el audio y el color de la pantalla; personaliza los efectos de iluminación desde 16. 8M colores con G</li>    
+
+
+                            </p>
+                            </div>
+                
+            </section>
+
+              <!--TERCERO MOUSE LOGITECH-->
+              <div class="border-grid"></div> 
+              <section class="grid-headset">
+                <div class="headset-img1">
+                    <div class="container-all">
+
+                        <input type="radio" id="5.7" name="image-slide" hidden/>
+                        <input type="radio" id="5.8" name="image-slide" hidden/>
+                        <input type="radio" id="5.9" name="image-slide" hidden/>
+                
+                        <div class="mouse-logitech3">
+                
+                            <div class="item-slide">
+                                <img src="./img/mouse/logitech7.png" class="gallery__img gallery_img--big">
+                            </div>
+                
+                            <div class="item-slide">
+                                <img src="./img/mouse/logitech8.png" class="gallery__img gallery_img--big">
+                            </div>
+                
+                            <div class="item-slide">
+                                <img src="./img/mouse/logitech9.png" class="gallery__img gallery_img--big">
+                            </div>
+                        </div>
+                       
+                        <div class="pagination">
+                           
+                            <label class="pagination-item" for="5.7">
+                                <img src="./img/mouse/logitech7.png">
+                            </label>
+                            
+                            <label class="pagination-item" for="5.8">
+                                <img src="./img/mouse/logitech8.png">
+                            </label>
+                            
+                            <label class="pagination-item" for="5.9">
+                                <img src="./img/mouse/logitech9.png">
+                            </label>
+                           
+                            </div>
+                        </div>
+                        </div>
+                        <div class="txt-headset1">
+                            <h2><span>Logitech G300s </span> - Mouse óptico ambidiestro para videojuegos. 9 botones programables, memoria incorporada | Botones programables, Resolución: 250 - 2500 dpi | Aceleración máx.: >20 G2, Velocidad máx.: >150 ips3 </h2>
+                            <p>Precio: <span>US$ 31.99</span></p>
+                            <h4>Sobre este articulo</h4>
+                            <p>
+                                <li>simétrico forma compacta: se siente cómodo en cualquier mano y perfecto para los jugadores que no quieren un mouse de tamaño grande</li>
+                                <li>Sensor óptico para juegos: pistas de forma precisa en una amplia variedad de superficies y se travesera para lograr la capacidad de respuesta que necesita.</li>    
+                                <li>Tres perfiles de memoria integrada: Guarde perfiles en el mouse una vez para iluminación de juego en equipos diferentes y asignar colores para ver fácilmente que perfil que estés usando.</li>   
+                                <li>Software de configuración fácil: simplemente comandos de arrastrar y soltar a la configuración de botones para el mouse exactamente de la forma que desee</li>    
+
+                            </p>
+                            </div>
+                
+            </section>
+             </div>
+            </div>
+           <!------------------------------------------------------------------>
+            <div id="mouse-reddragon" style="display: none;">
+                <div class="grid">
+                    <!--PRIMER MOUSE RED DRAGON-->
+                    <section class="grid-headset">
+                        <div class="headset-img1">
+                            <div class="container-all">
+    
+                                <input type="radio" id="5.10" name="image-slide" hidden/>
+                                <input type="radio" id="5.11" name="image-slide" hidden/>
+                                <input type="radio" id="5.12" name="image-slide" hidden/>
+                        
+                                <div class="mouse-dragon1">
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/mouse/dragon1.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/mouse/dragon2.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/mouse/dragon3.png" class="gallery__img gallery_img--big">
+                                    </div>
+                                </div>
+                               
+                                <div class="pagination">
+                                   
+                                    <label class="pagination-item" for="5.10">
+                                        <img src="./img/mouse/dragon1.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="5.11">
+                                        <img src="./img/mouse/dragon2.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="5.12">
+                                        <img src="./img/mouse/dragon3.png">
+                                    </label>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="txt-headset1">
+                                    <h2><span>Redragon M913 Impact Elite</span> - Ratón inalámbrico para juegos (16000 DPI), con 16 botones programables, batería de 45 horas y sensor óptico Pro, ratón MMO de 12 botones laterales | Tecnología de detencion: Optical | Conexiones: 2.4Ghz & USB </h2>
+                                    <p>Precio: <span>US$ 49.98</span></p>
+                                    <h4>Sobre este articulo</h4>
+                                    <p>
+                                        <li>Lightning-Fast no es sólo decir – con mejorado Optical Pixart 3335 Gaming Sensor, M913 registra cada clic/deslizamiento instantáneamente dentro de 1 ms.</li>
+                                        <li>Permanece encendido día a noche: combo de chip avanzado de bajo consumo con capacidad de batería de 1000 mAh</li>    
+                                        <li>Soporte de controlador sin compromisos: 16 botones, incluyendo 12 botones laterales y 16.8 millones de efectos de iluminación de color</li>   
+                                        <li>5 DPIs diseñado para Esports – Equipado con 5 niveles de DPI integrados (1000/2000/4000/8000/16000) que te permiten cambiar entre diferentes necesidades con facilidad.</li>    
+    
+                                    </p>
+                                    </div>
+                        
+                    </section>
+                    <div class="border-grid"></div> 
+                     <!--SEGUNDO MOUSE RED-DRAGON-->
+               
+                   <section class="grid-headset">
+                    <div class="headset-img1">
+                        <div class="container-all">
+    
+                            <input type="radio" id="5.13" name="image-slide" hidden/>
+                            <input type="radio" id="5.14" name="image-slide" hidden/>
+                            <input type="radio" id="5.15" name="image-slide" hidden/>
+                    
+                            <div class="mouse-dragon2">
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/dragon4.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/dragon5.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/dragon6.png" class="gallery__img gallery_img--big">
+                                </div>
+                            </div>
+                           
+                            <div class="pagination">
+                               
+                                <label class="pagination-item" for="5.13">
+                                    <img src="./img/mouse/dragon4.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.14">
+                                    <img src="./img/mouse/dragon5.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.15">
+                                    <img src="./img/mouse/dragon6.png">
+                                </label>
+                               
+                                </div>
+                            </div>
+                           </div>
+                            <div class="txt-headset1">
+                                <h2><span>Redragon M910 Ranger Chroma </span> - Ratón para videojuegos con retroiluminación RGB de 16,8 millones de colores, agarre cómodo, 9 botones programables, hasta 12400 DPI | Tecnología de detección: Optical | Orientación de manos: Ambidextrous</h2>
+                                <p>Precio: <span>US$ 25.90</span></p>
+                                <h4>Sobre este articulo</h4>
+                                <p>
+                                    <li>5 opciones de DPI y función personalizada: 5 niveles de DPI ajustables (500, 1000, 2000, 3000, 6200) para satisfacer tus múltiples necesidades, ya sea para el trabajo diario o para juegos.</li>
+                                    <li>Un software de programación profesional. 5 ajustes de DPI ajustables: 500/1000/2000/3000/6200, rápidamente ajustable para diferentes escenarios de juego; 4 velocidad de sondeo es ajustable: 125Hz/250Hz/500Hz/1000Hz</li>    
+                                    <li>Comodidad y precisión en tus manos. El ratón para juegos Ranger M910 es un accesorio esencial para los jugadores con su diseño agresivo para las manos.</li>   
+                                    <li>La elección de los jugadores duros a presión. Ya sea que estés segmentando, apuntando, cortando o atacando</li>    
+    
+                                </p>
+                                </div>
+                    
+                </section>
+    
+                  <!--TERCERO MOUSE RED DRAGON-->
+                  <div class="border-grid"></div> 
+                  <section class="grid-headset">
+                    <div class="headset-img1">
+                        <div class="container-all">
+    
+                            <input type="radio" id="5.16" name="image-slide" hidden/>
+                            <input type="radio" id="5.17" name="image-slide" hidden/>
+                            <input type="radio" id="5.18" name="image-slide" hidden/>
+                    
+                            <div class="mouse-dragon3">
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/dragon7.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/dragon8.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/dragon9.png" class="gallery__img gallery_img--big">
+                                </div>
+                            </div>
+                           
+                            <div class="pagination">
+                               
+                                <label class="pagination-item" for="5.16">
+                                    <img src="./img/mouse/dragon7.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.17">
+                                    <img src="./img/mouse/dragon8.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.18">
+                                    <img src="./img/mouse/dragon9.png">
+                                </label>
+                               
+                                </div>
+                            </div>
+                            </div>
+                            <div class="txt-headset1">
+                                <h2><span>Redragon M602 RGB </span> - cable Gaming Mouse RGB Spectrum retroiluminado ergonómico ratón Griffin programable con 7 modos de retroiluminación de hasta 7200 DPI para Windows PC Gamers (negro) | Tecnología de detencion: Optical | Orientación de la mano: Right</h2>
+                                <p>Precio: <span>US$ 19.99</span></p>
+                                <h4>Sobre este articulo</h4>
+                                <p>
+                                    <li>Ratón de juego con cable; construido para computadoras de videojuegos – Redragon M602-RGB "Griffin" RGB retroiluminado para PC de hasta 7200 DPI (usuario ajustable 800/1200/1600/2400/7200 DPI)</li>
+                                    <li>Ratón programable MMO retroiluminado RGB para juegos de PC; botones programables de usuario de 7 MMO; 5 perfiles de memoria</li>    
+                                    <li>Ratón ergonómico para videojuegos, ofrece una experiencia extremadamente cómoda y precisa para juegos de ordenador. </li>   
+                                    <li>Características del ratón para juegos de PC de alta gama: el ratón Redragon M602-RGB cuenta con afinación de peso integrada para el equilibrio correcto, rueda de desplazamiento antideslizante</li>    
+    
+                                </p>
+                                </div>
+                    
+                </section>
+                 </div>
+            </div>
+            <!------------------------------------------------------------->
+            <div id="mouse-razer" style="display: none;">
+                <div class="grid">
+                    <!--PRIMER MOUSE RAZER-->
+                    <section class="grid-headset">
+                        <div class="headset-img1">
+                            <div class="container-all">
+    
+                                <input type="radio" id="5.19" name="image-slide" hidden/>
+                                <input type="radio" id="5.20" name="image-slide" hidden/>
+                                <input type="radio" id="5.21" name="image-slide" hidden/>
+                        
+                                <div class="mouse-razer1">
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/mouse/razer1.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/mouse/razer2.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/mouse/razer3.png" class="gallery__img gallery_img--big">
+                                    </div>
+                                </div>
+                               
+                                <div class="pagination">
+                                   
+                                    <label class="pagination-item" for="5.19">
+                                        <img src="./img/mouse/razer1.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="5.20">
+                                        <img src="./img/mouse/razer2.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="5.21">
+                                        <img src="./img/mouse/razer3.png">
+                                    </label>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="txt-headset1">
+                                    <h2><span>Ratón para juegos Razer DeathAdder V2 </span> - Sensor óptico de 20 K DPI - Interruptor de ratón para juegos más rápido - Iluminación RGB Chroma - 8 botones programables - Puños laterales de goma - Negro clásico | Tecnología de detección: Optical</h2>
+                                    <p>Precio: <span>US$ 54.99</span></p>
+                                    <h4>Sobre este articulo</h4>
+                                    <p>
+                                        <li>Sensor óptico Focus+ 20 K DPI: se calibra automáticamente en la alfombrilla del ratón.</li>
+                                        <li>3 veces más rápido que los interruptores mecánicos tradicionales: los nuevos interruptores ópticos de mouse Razer</li>    
+                                        <li>Iluminación RGB Chroma envolvente y personalizable: soporta 16.8 millones de colores con perfiles preestablecidos incluidos.</li>   
+                                        <li>Cable sin arrastre para un rendimiento inalámbrico: los cables Razer Speedflex eliminan.</li>    
+    
+                                    </p>
+                                    </div>
+                        
+                    </section>
+                    <div class="border-grid"></div> 
+                     <!--SEGUNDO MOUSE RAZER-->
+               
+                   <section class="grid-headset">
+                    <div class="headset-img1">
+                        <div class="container-all">
+    
+                            <input type="radio" id="5.22" name="image-slide" hidden/>
+                            <input type="radio" id="5.23" name="image-slide" hidden/>
+                            <input type="radio" id="5.24" name="image-slide" hidden/>
+                    
+                            <div class="mouse-razer2">
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/razer4.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/razer5.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/razer6.png" class="gallery__img gallery_img--big">
+                                </div>
+                            </div>
+                           
+                            <div class="pagination">
+                               
+                                <label class="pagination-item" for="5.22">
+                                    <img src="./img/mouse/razer4.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.23">
+                                    <img src="./img/mouse/razer5.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.24">
+                                    <img src="./img/mouse/razer6.png">
+                                </label>
+                               
+                                </div>
+                            </div>
+                            </div>
+                            <div class="txt-headset1">
+                                <h2><span>Razer Naga Trinity Gaming Ratón </span> - Sensor óptico de 16.000 DPI - Iluminación RGB Chroma - Placa lateral intercambiable con configuraciones de 2, 7, 12 botones - Interruptores mecánicos | Tecnología de detección: opcional | Orientación de la mano: Right </h2>
+                                <p>Precio: <span>US$ 97.99</span></p>
+                                <h4>Sobre este articulo</h4>
+                                <p>
+                                    <li>Sensor óptico de alta precisión de 16.000 DPI: ofrece ajuste de sensibilidad sobre la marcha a través de botones DPI dedicados (reprogramables) para juegos.</li>
+                                    <li>Personalización modular completa: 3 placas laterales intercambiables con configuraciones de 2, 7 y 12 botones.</li>    
+                                    <li>Perfiles de color RGB Chroma personalizables: soporta 16,8 millones de combinaciones de colores con perfiles preestablecidos incluidos.</li>   
+                                    <li>Rueda de desplazamiento estriada de goma para máxima precisión: los pequeños golpes táctiles aumentan el agarre y permiten un desplazamiento más controlado en situaciones de juego de alta estaca.</li>    
+    
+                                </p>
+                                </div>
+                    
+                </section>
+    
+                  <!--TERCERO MOUSE RAZER-->
+                  <div class="border-grid"></div> 
+                  <section class="grid-headset">
+                    <div class="headset-img1">
+                        <div class="container-all">
+    
+                            <input type="radio" id="5.25" name="image-slide" hidden/>
+                            <input type="radio" id="5.26" name="image-slide" hidden/>
+                            <input type="radio" id="5.27" name="image-slide" hidden/>
+                    
+                            <div class="mouse-razer3">
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/razer7.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/razer8.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/mouse/razer9.png" class="gallery__img gallery_img--big">
+                                </div>
+                            </div>
+                           
+                            <div class="pagination">
+                               
+                                <label class="pagination-item" for="5.25">
+                                    <img src="./img/mouse/razer7.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.26">
+                                    <img src="./img/mouse/razer8.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="5.27">
+                                    <img src="./img/mouse/razer9.png">
+                                </label>
+                               
+                                </div>
+                            </div>
+                            </div>
+                            <div class="txt-headset1">
+                                <h2><span>Razer Basilisk X HyperSpeed </span> - compatible con Bluetooth e inalámbrico, sensor óptico de 16 K DPI, 6 botones programables, batería de 450 horas, negro clásico | | Tecnología de detección: opcional | Orientación de la mano: Right </h2>
+                                <p>Precio: <span>US$ 55.90</span></p>
+                                <h4>Sobre este articulo</h4>
+                                <p>
+                                    <li>25% más rápido que los ratones inalámbricos de competencia: la nueva tecnología inalámbrica Razer HyperSpeed</li>
+                                    <li>Conectividad de modo dual: soporta Bluetooth para un consumo de energía eficiente y HyperSpeed Wireless</li>    
+                                    <li>6 botones programables: permite la reconfiguración y asignación de funciones macro complejas a través de Razer</li>   
+                                    <li>Hasta 450 horas de duración de la batería: dura 450 horas en Bluetooth, 285 horas en HyperSpeed Wireless</li>    
+                                    <li>Interruptores mecánicos duraderos: soporta hasta 50 millones de clics.</li>    
+
+                                </p>
+                                </div>
+                    
+                </section>
+                 </div>
+            </div>
+            </div>
+            </div>
+            
+            <!--FOOTER-->
+            <div id="about-us">
+            <footer>
+                <div class="caja">
+                     <div class="container-body">
+                         <div class="columna1">
+                            
+                             <h1>Sobre nosotros</h1>
+                              <div class="borde">
+                              
+                                </div>
+                                <p>Somos una tienda de perifericos gaming que te ayuda a encontrar lo que necesitas, nuestros perifericos traen una amplia especificaciones de cada una.</p>
+         
+                                 <div class="redes">
+                                     <div class="row">
+                                         <a href="https://www.facebook.com/jorgedavid.paz.5" <i class="fab fa-facebook-f"></i></a>
+                                     </div>
+                                     <div class="row">
+                                         <a href="#" <i class="fab fa-twitter"></i></a>
+                                         
+                                     </div>
+                                     <div class="row">
+                                         <a href="https://www.instagram.com/jorgedavidgiron/?hl=es-la" <i class="fab fa-instagram"></i></a>
+                                         
+                                     </div>
+                             
+                                 </div>
+                         </div>
+                      
+                         <div class="columna3">
+         
+                             <h1>Información</h1>
+                              <div class="borde">
+                               
+                              </div>
+                             <div class="row2">
+                                 <i class="fas fa-map-marker-alt" style="margin-top: 40px; font-size: 30px;"></i>
+                                 <label>La Ceiba, Calle CA-13 - esquina opuesta al punto de buses santa marta</label>
+                             </div>
+         
+                             <div class="row2">
+                                 <i class="fas fa-phone" style="margin-top: 10px; font-size: 20px";></i>
+                                 <label>+504 9859-0618</label>
+                             </div>
+         
+                             <div class="row2">
+                                <a href="https://www.google.com/intl/es-419/gmail/about/#"><i class="fas fa-envelope"  style="margin-top: 10px; font-size: 20px; color: black;"></i></a> 
+                                  <label>jorge1giron18@gmail.com</label>
+                             </div>
+         
+                         </div>  
+                             
+                         <div class="columna2">
+                             <h1>Enlaces</h1>
+                             <div class="borde">
+                           
+                             </div>
+                             <a href="headset.html"><i class="fas fa-link"></i>Headset</a>
+                             <a href="Alfombrillas.html"><i class="fas fa-link"></i>Mouse-Pad</a>
+                             <a href="Monitor.html"><i class="fas fa-link"></i>Monitores</a>
+                             <a href="teclado.html"><i class="fas fa-link"></i>Teclado</a>
+                             <a href="mouse.html"><i class="fas fa-link"></i>Mouse</a>
+                             <a href="capturadora.html"><i class="fas fa-link"></i>Capturador</a>
+                         </div>
+                     </div>
+                 </div>
+                 
+                 <div class="footer-bottom">
+                        <div class="bottom">
+                         <div class="copyright">
+                             Derechos Reservados &copy; 2020 | <a href="#">GamingPeriferics</a>
+                        </div>
+                         </div>
+                     </div>    
+             </footer>
+            </div>
+            
+
+
+   <!---LINKS DE JS-->
+   <script src="links css/js/texto-animado.js"></script>
+   <script src="./links css/js/slider.js"></script>
+  <script src="./links css/js/menu.js"></script>
+  <script src="links css/js/main.js"></script>
+  <script src="links css/js/carrusel.js"></script>
+  <script src="links css/js/modal.js"></script>
+</body>
+</html>

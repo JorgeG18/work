@@ -1,0 +1,237 @@
+/*Codigo de la PRIMERA PARTE DE LOS MONITORES ACER para la páginación de la galería-slider**/
+
+.monit-acer1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.1"]:checked ~ .monit-acer1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.2"]:checked ~ .monit-acer1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.3"]:checked ~ .monit-acer1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la SEGUNDA PARTE DE LOS MONITORES ACER para la páginación de la galería-slider**/
+
+.monit-acer2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.4"]:checked ~ .monit-acer2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.5"]:checked ~ .monit-acer2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.6"]:checked ~ .monit-acer2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la TERCERA PARTE DE LOS MONITORES ACER para la páginación de la galería-slider**/
+
+.monit-acer3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.7"]:checked ~ .monit-acer3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.8"]:checked ~ .monit-acer3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.9"]:checked ~ .monit-acer3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la PRIMERA PARTE DE LOS MONITORES ASUS para la páginación de la galería-slider**/
+
+.monit-asus1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.10"]:checked ~ .monit-asus1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.11"]:checked ~ .monit-asus1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.12"]:checked ~ .monit-asus1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+/*Codigo de la SEGUNDA PARTE DE LOS MONITORES ASUS para la páginación de la galería-slider**/
+
+.monit-asus2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.13"]:checked ~ .monit-asus2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.14"]:checked ~ .monit-asus2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.15"]:checked ~ .monit-asus2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la TERCERA PARTE DE LOS MONITORES ASUS para la páginación de la galería-slider**/
+
+.monit-asus3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.16"]:checked ~ .monit-asus3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.17"]:checked ~ .monit-asus3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.18"]:checked ~ .monit-asus3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PRIMERA PARTE DE LOS MONITORES SPECTRE para la páginación de la galería-slider**/
+
+.monit-spectre1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.19"]:checked ~ .monit-spectre1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.20"]:checked ~ .monit-spectre1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.21"]:checked ~ .monit-spectre1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la SEGUNDA PARTE DE LOS MONITORES SPECTRE para la páginación de la galería-slider**/
+
+.monit-spectre2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.22"]:checked ~ .monit-spectre2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.23"]:checked ~ .monit-spectre2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.24"]:checked ~ .monit-spectre2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la SEGUNDA PARTE DE LOS MONITORES SPECTRE para la páginación de la galería-slider**/
+
+.monit-spectre3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;   
+    
+}
+
+input[id="3.25"]:checked ~ .monit-spectre3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="3.26"]:checked ~ .monit-spectre3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+
+input[id="3.27"]:checked ~ .monit-spectre3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}

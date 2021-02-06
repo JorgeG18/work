@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>GamingPeriferics</title>
+
+    <!---LINK DE CSS-->
+    <link rel="stylesheet" href="./links css/css/main.css">
+    <link rel="stylesheet" href="./links css/css/slider.css">
+    <link rel="stylesheet" href="./links css/css/menu.css">
+    <link rel="stylesheet" href="./links css/css/productos.css">
+    <link rel="stylesheet" href="./links css/css/pagina-principal.css">
+    <link rel="stylesheet" href="./links css/css/footer.css">
+    <link rel="stylesheet" href="./links css/css/carrusel_otrosp.css">
+    <link rel="stylesheet" href="./links css/css/headset.css">
+    <link rel="stylesheet" href="./links css/css/alfombrillas.css">
+    <link rel="stylesheet" href="./links css/css/teclado.css">
+    <link rel="stylesheet" href="./links css/css/styles_productos.css">
+    
+    <!--LINK FUENTES-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <!--Link Iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+ 
+</head>
+<body>
+    <header>
+        <div class="nav-container" style="background-color: black;">
+            <nav class="nav-checkbox">
+                 <label for="tab-nav" class="tab-nav-label"><i class="fas fa-bars"></i></label>
+                 <a href="index.html" class="nav-logo" onclick="mostrar1()">GAMING PERIFERICS</a>
+                <input type="checkbox" id="tab-nav" class="tab-nav">
+               
+                <ul class="tab-content">
+                    <li><a class="accion" class="mostrar" href="#">INICIO</a></li>
+                    <li><a class="borde" href="productos.html">Productos</a></li>
+                    <li><a href="#about-us">Acerca de</a></li>
+                    <li><a href="#blog">Contacto</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+   </header> 
+      <!---BARRA LATERAL DE LAS MARCAS-->
+      <div id="services">
+   <div class="container-barra">
+        <div class="lateral">
+            <div class="barra-marcas">
+                  <h2>MOUSE-PAD</h2>
+                  <div class="border-bottom"></div>
+                  <a href="#" id="razer"   onclick="teclado_razer()" >Teclado Razer</a>
+                  <a href="#" id="hyper-t"   onclick="teclado_hyperx()" >Teclado HyperX</a>
+                  <a href="#" id="roccat-t"   onclick="teclado_roccat()" >Teclado Roccat</a>
+                
+
+            </div>
+
+           
+        </div>
+    
+        <!--GRIDS QUE SE MOSTRARÁN-->
+     
+        <div class="modal" id="modal">
+            <div class="modal__content">
+                <img src="" alt="" class="modal__img" id="modal__img">
+            </div>
+            <div class="modal__boton" id="modal__boton">X</div>
+        </div>
+
+        <div id="teclad-razer">
+
+            <div class="grid">
+                <!--PRIMER TECLADO RAZER-->
+                <section class="grid-headset">
+                    <div class="headset-img1">
+                        <div class="container-all">
+
+                            <input type="radio" id="4.1" name="image-slide" hidden/>
+                            <input type="radio" id="4.2" name="image-slide" hidden/>
+                            <input type="radio" id="4.3" name="image-slide" hidden/>
+                    
+                            <div class="teclad-ryzer1">
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer1.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer2.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer3.png" class="gallery__img gallery_img--big">
+                                </div>
+                            </div>
+                           
+                            <div class="pagination">
+                               
+                                <label class="pagination-item" for="4.1">
+                                    <img src="./img/teclado/razer1.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="4.2">
+                                    <img src="./img/teclado/razer2.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="4.3">
+                                    <img src="./img/teclado/razer3.png">
+                                </label>
+                               
+                                </div>
+                            </div>
+                            </div>
+                            <div class="txt-headset1">
+                                <h2><span>Razer Huntsman Mini </span> - Diseño reducido un 60%, teclado para juegos: interruptores de teclado más rápidos nunca, interruptores ópticos Clicky - Iluminación RGB Chroma - Teclas PBT - Memoria incorporada - Negro clásico | Cable tipo C</h2>
+                                <p>Precio: <span>US$ 119.90</span></p>
+                                <h4>Sobre este articulo</h4>
+                                <p>
+                                    <li>Más rápido que los interruptores mecánicos legados: los interruptores ópticos Razer utilizan una actuación basada en la luz</li>
+                                    <li>Máxima personalización y inmersión para juegos con Razer Chroma</li>    
+                                    <li>Calidad y construcción de aluminio: cubierta con un marco superior de aluminio mate para una mayor integridad estructural.</li>   
+                                    <li>Macros totalmente programables: Razer Hypershift permite que todas las teclas y combinaciones de teclas se remapen para ejecutar comandos complejos.</li>    
+
+                                </p>
+                                </div>
+                    
+                </section>
+                <!--SEGUNDO TECLADO RAZER-->
+                <div class="border-grid"></div>  
+                <section class="grid-headset">
+                    <div class="headset-img1">
+                        <div class="container-all">
+
+                            <input type="radio" id="4.4" name="image-slide" hidden/>
+                            <input type="radio" id="4.5" name="image-slide" hidden/>
+                            <input type="radio" id="4.6" name="image-slide" hidden/>
+                    
+                            <div class="teclad-ryzer2">
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer4.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer5.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer6.png" class="gallery__img gallery_img--big">
+                                </div>
+                            </div>
+                           
+                            <div class="pagination">
+                               
+                                <label class="pagination-item" for="4.4">
+                                    <img src="./img/teclado/razer4.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="4.5">
+                                    <img src="./img/teclado/razer5.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="4.6">
+                                    <img src="./img/teclado/razer6.png">
+                                </label>
+                               
+                                </div>
+                            </div>
+                            </div>
+                            <div class="txt-headset1">
+                                <h2><span>Teclado Razer Huntsman Elite</span> - interruptores de teclado más rápidos nunca, interruptores ópticos Clicky - iluminación RGB Chroma - reposamuñecas de felpa magnética - teclas de medios dedicados y esfera - negro clásico</h2>
+                                <p>Precio: <span>US$ 59.00</span></p>
+                                <h4>Sobre este articulo</h4>
+                                <p>
+                                    <li>Máxima personalización y inmersión para juegos con Razer Chroma: se sincroniza completamente con juegos populares, hardware Razer, Philips Hue.</li>
+                                    <li>Reposamuñecas ergonómico y magnético: hecho de piel sintética de felpa para maximizar la comodidad</li>    
+                                    <li>Compatible con macro totalmente programable: Razer Hypershift permite remapear todas las teclas y combinaciones de teclas</li>   
+                                    <li>Durabilidad inigualable: soporta hasta 100 millones de clics</li>    
+
+                                </p>
+                                </div>
+                    
+                </section>
+                <!---TERCER TECLADO RAZER-->
+                <div class="border-grid"></div>  
+                <section class="grid-headset">
+                    <div class="headset-img1">
+                        <div class="container-all">
+
+                            <input type="radio" id="4.7" name="image-slide" hidden/>
+                            <input type="radio" id="4.8" name="image-slide" hidden/>
+                            <input type="radio" id="4.9" name="image-slide" hidden/>
+                    
+                            <div class="teclad-ryzer3">
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer7.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer8.png" class="gallery__img gallery_img--big">
+                                </div>
+                    
+                                <div class="item-slide">
+                                    <img src="./img/teclado/razer9.png" class="gallery__img gallery_img--big">
+                                </div>
+                            </div>
+                           
+                            <div class="pagination">
+                               
+                                <label class="pagination-item" for="4.7">
+                                    <img src="./img/teclado/razer7.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="4.8">
+                                    <img src="./img/teclado/razer8.png">
+                                </label>
+                                
+                                <label class="pagination-item" for="4.9">
+                                    <img src="./img/teclado/razer9.png">
+                                </label>
+                               
+                                </div>
+                            </div>
+                            </div>
+                            <div class="txt-headset1">
+                                <h2><span>Razer BlackWidow TE Chroma v2</span> - TKL Teclado mecánico sin tenkeyless: interruptores de teclas amarillas, lineal y silencioso, iluminación RGB Chroma, reposamuñecas magnéticas, macros programables, negro clásico</h2>
+                                <p>Precio: <span>US$ 59.00</span></p>
+                                <h4>Sobre este articulo</h4>
+                                <p>
+                                    <li>Interruptor mecánico más rápido para juegos: la tecnología de interruptor amarillo Razer supera a los competidores.</li>
+                                    <li>Diseño listo para torneos: un diseño sin llave con un cable USB desmontable proporciona un factor de forma portátil para los jugadores en movimiento.</li>    
+                                    <li>Soporte macro totalmente programable: Razer Hypershift permite que todas las teclas y combinaciones de teclas se remapen para ejecutar comandos complejos.</li>   
+                                    <li>Reposamuñecas ergonómico y magnético: hecho de piel sintética de felpa para maximizar la comodidad</li>    
+                                    <li>Construcción duradera: soporta hasta 80 millones de clics.</li>    
+
+                                </p>
+                                </div>
+                    
+                </section>
+            </div>
+            </div>
+            
+             <!--HYPERX TECLADO-->
+             <div id="teclad-hyperx" style="display: none;">
+                <div class="grid">
+                    <!--PRIMER TECLADO HYPERX-->
+                    <section class="grid-headset">
+                        <div class="headset-img1">
+                            <div class="container-all">
+    
+                                <input type="radio" id="4.10" name="image-slide" hidden/>
+                                <input type="radio" id="4.11" name="image-slide" hidden/>
+                                <input type="radio" id="4.12" name="image-slide" hidden/>
+                        
+                                <div class="teclad-hyperx1">
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx1.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx2.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx3.png" class="gallery__img gallery_img--big">
+                                    </div>
+                                </div>
+                               
+                                <div class="pagination">
+                                   
+                                    <label class="pagination-item" for="4.10">
+                                        <img src="./img/teclado/hyperx1.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.11">
+                                        <img src="./img/teclado/hyperx2.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.12">
+                                        <img src="./img/teclado/hyperx3.png">
+                                    </label>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="txt-headset1">
+                                    <h2><span>HyperX Alloy Origins Core  </span> - Aqua Switch | Cable USB tipo C desmontable | Memoria integrada para tres perfiles | Cuerpo completo de aeronáutico | Teclas mecánicas | Personalización automatica con el software.</h2>
+                                    <p>Precio: <span>US$ 89.99</span></p>
+                                    <h4>Sobre este artlo</h4>
+                                    <p>
+                                        <li>Interruptores mecánicos HyperX clasificados para 80 millones de pulsaciones.</li>
+                                        <li>Iluminación RGB deslumbrante con efectos dinámicos.</li>    
+                                        <li>Personaliza tu iluminación, crea macros y ajusta el modo de juego con el software HyperX NGENUITY. Este programa potente pero fácil de usar te permite configurar la iluminación por tecla</li>   
+                                        <li>Compatibilidad Windows® 10, 8.1, 8, 7</li>    
+    
+                                    </p>
+                                    </div>
+                        
+                    </section>
+                    <!--SEGUNDO TECLADO Hyperx-->
+                    <div class="border-grid"></div>  
+                    <section class="grid-headset">
+                        <div class="headset-img1">
+                            <div class="container-all">
+    
+                                <input type="radio" id="4.13" name="image-slide" hidden/>
+                                <input type="radio" id="4.14" name="image-slide" hidden/>
+                                <input type="radio" id="4.15" name="image-slide" hidden/>
+                        
+                                <div class="teclad-hyperx2">
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx4.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx5.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx6.png" class="gallery__img gallery_img--big">
+                                    </div>
+                                </div>
+                               
+                                <div class="pagination">
+                                   
+                                    <label class="pagination-item" for="4.13">
+                                        <img src="./img/teclado/hyperx4.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.14">
+                                        <img src="./img/teclado/hyperx5.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.15">
+                                        <img src="./img/teclado/hyperx6.png">
+                                    </label>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="txt-headset1">
+                                    <h2><span>HyperX Alloy Core RGB</span> - Teclado de Membrana para videojuegos, teclas silenciosas y silenciosas con efectos de iluminación LED RGB, resistente a derrames, teclas de medios dedicados, compatible con Windows 10/8.1/8/7 – Negro</h2>
+                                    <p>Precio: <span>US$ 39.99</span></p>
+                                    <h4>Sobre este articulo</h4>
+                                    <p>
+                                        <li>Barra de luz de firma y efectos de iluminación RGB dinámicos para que puedas personalizar tu estación de batalla y darle vida con 6 efectos de iluminación LED preestablecidos.</li>
+                                        <li>Marco sólido duradero para una mayor durabilidad y estabilidad.</li>    
+                                        <li>Teclas silenciosas y sensibles con anti-ghosting</li>   
+                                        <li>Controles multimedia dedicados para que puedas controlar cómodamente los medios de comunicación.</li>    
+                                        <li>Botones de acceso rápido para brillo, modo de iluminación y modo de juego para ajustar rápidamente el brillo</li>   
+                                    </p>
+                                    </div>
+                        
+                    </section>
+
+                    <!--TERCER TECLADO HYPERX-->
+                    <div class="border-grid"></div>  
+                    <section class="grid-headset">
+                        <div class="headset-img1">
+                            <div class="container-all">
+    
+                                <input type="radio" id="4.16" name="image-slide" hidden/>
+                                <input type="radio" id="4.17" name="image-slide" hidden/>
+                                <input type="radio" id="4.18" name="image-slide" hidden/>
+                        
+                                <div class="teclad-hyperx3">
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx7.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx8.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/hyperx9.png" class="gallery__img gallery_img--big">
+                                    </div>
+                                </div>
+                               
+                                <div class="pagination">
+                                   
+                                    <label class="pagination-item" for="4.16">
+                                        <img src="./img/teclado/hyperx7.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.17">
+                                        <img src="./img/teclado/hyperx8.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.18">
+                                        <img src="./img/teclado/hyperx9.png">
+                                    </label>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="txt-headset1">
+                                    <h2><span>HyperX x Ducky One 2 Mini</span> - Teclado mecánico para videojuegos pequeño formato al 60% | Teclas mecánicas HyperX | Teclas increíbles Ducky PBT Double-Shot, compatibilidad con Ducky Macro 2.0| Teclado de tres ángulos y cable USB tipo C extraíble</h2>
+                                    <p>Precio: <span>US$ 119.00</span></p>
+                                    <h4>Sobre este articulo</h4>
+                                    <p>
+                                        <li>Teclas increíbles Ducky PBT Double-Shot,el diseño duradero y brillante mejora la fascinante iluminación RGB y ofrece una experiencia de escritura óptima</li>
+                                        <li>Personaliza tu teclado con los efectos integrados en el teclado. Cambia la iluminación, la velocidad y el color y hazlo brillar con tu propio estilo.</li>    
+                                        <li>Libera más espacio para tu ratón con este teclado sumamente compacto. El diseño de Ducky se une a las teclas HyperX para una tirada limitada de teclados.</li>   
+                                       
+        
+    
+                                    </p>
+                                    </div>
+                        
+                    </section>
+                </div>
+
+             </div>
+
+
+             <!--ROCCA TECLADO-->
+             <div id="teclad-rocca" style="display: none;">
+                <div class="grid">
+                    <!--PRIMER TECLADO ROCCA-->
+                    <section class="grid-headset">
+                        <div class="headset-img1">
+                            <div class="container-all">
+    
+                                <input type="radio" id="4.19" name="image-slide" hidden/>
+                                <input type="radio" id="4.20" name="image-slide" hidden/>
+                                <input type="radio" id="4.21" name="image-slide" hidden/>
+                        
+                                <div class="teclad-rocca1">
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca1.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca2.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca3.png" class="gallery__img gallery_img--big">
+                                    </div>
+                                </div>
+                               
+                                <div class="pagination">
+                                   
+                                    <label class="pagination-item" for="4.19">
+                                        <img src="./img/teclado/rocca1.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.20">
+                                        <img src="./img/teclado/rocca2.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.21">
+                                        <img src="./img/teclado/rocca3.png">
+                                    </label>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="txt-headset1">
+                                    <h2><span>ROCCAT Vulcan 100 </span> - Aimo RGB Teclado Mecánico para Juegos - Interruptores Marrón | Conexiones: USB | Remate de aluminio anodizado |  Motor de iluminación AIMO | Longitud 16 cm - Anchura: 46.20 cm - Peso: 950 g </h2>
+                                    <p>Precio: <span>US$ 144.09</span></p>
+                                    <h4>Sobre este artlo</h4>
+                                    <p>
+                                        <li>Tecnología: el rebote del interruptor se reduce gracias a los componentes de primera calidad, lo que permite al firmware reconocer la entrada más rápido</li>
+                                        <li>Durabilidad: una placa superior de aluminio anodizado resistente proporciona robustez.</li>    
+                                        <li>Iluminación: alimentado por el sistema de iluminación inteligente AIMO, luces LED de larga duración junto con una carcasa de interruptor de llave transparente. </li>   
+                                        <li>Teclas multimedia: las teclas multimedia de estilo mezclador y la rueda con LED integrados añaden un nivel de función sofisticada</li>    
+    
+                                    </p>
+                                    </div>
+                        
+                    </section>
+                    <!--SEGUNDO TECLADO Hyperx-->
+                    <div class="border-grid"></div>  
+                    <section class="grid-headset">
+                        <div class="headset-img1">
+                            <div class="container-all">
+    
+                                <input type="radio" id="4.22" name="image-slide" hidden/>
+                                <input type="radio" id="4.23" name="image-slide" hidden/>
+                                <input type="radio" id="4.24" name="image-slide" hidden/>
+                        
+                                <div class="teclad-rocca2">
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca4.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca5.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca6.png" class="gallery__img gallery_img--big">
+                                    </div>
+                                </div>
+                               
+                                <div class="pagination">
+                                   
+                                    <label class="pagination-item" for="4.22">
+                                        <img src="./img/teclado/rocca4.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.23">
+                                        <img src="./img/teclado/rocca5.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.24">
+                                        <img src="./img/teclado/rocca6.png">
+                                    </label>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="txt-headset1">
+                                    <h2><span>ROCCAT Vulcan 121</span> - Aimo RGB - Teclado mecánico para videojuegos, interruptores marrones | Titan Switch | Diseñado para durar | Iluminación Aimo | Conexiones: USB, Longitud: 23.50 cm - Anchura: 46.20 - Peso: 1150 g</h2>
+                                    <p>Precio: <span>US$ 39.99</span></p>
+                                    <h4>Sobre este articulo</h4>
+                                    <p>
+                                        <li>Barra de luz de firma y efectos de iluminación RGB dinámicos para que puedas personalizar tu estación de batalla y darle vida con 6 efectos de iluminación LED preestablecidos.</li>
+                                        <li>Marco sólido duradero para una mayor durabilidad y estabilidad.</li>    
+                                        <li>Teclas silenciosas y sensibles con anti-ghosting</li>   
+                                        <li>Controles multimedia dedicados para que puedas controlar cómodamente los medios de comunicación.</li>    
+                                        <li>Botones de acceso rápido para brillo, modo de iluminación y modo de juego para ajustar rápidamente el brillo</li>   
+                                    </p>
+                                    </div>
+                        
+                    </section>
+
+                    <!--TERCER TECLADO HYPERX-->
+                    <div class="border-grid"></div>  
+                    <section class="grid-headset">
+                        <div class="headset-img1">
+                            <div class="container-all">
+    
+                                <input type="radio" id="4.25" name="image-slide" hidden/>
+                                <input type="radio" id="4.26" name="image-slide" hidden/>
+                                <input type="radio" id="4.27" name="image-slide" hidden/>
+                        
+                                <div class="teclad-rocca3">
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca7.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca8.png" class="gallery__img gallery_img--big">
+                                    </div>
+                        
+                                    <div class="item-slide">
+                                        <img src="./img/teclado/rocca9.png" class="gallery__img gallery_img--big">
+                                    </div>
+                                </div>
+                               
+                                <div class="pagination">
+                                   
+                                    <label class="pagination-item" for="4.25">
+                                        <img src="./img/teclado/rocca7.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.26">
+                                        <img src="./img/teclado/rocca8.png">
+                                    </label>
+                                    
+                                    <label class="pagination-item" for="4.27">
+                                        <img src="./img/teclado/rocca9.png">
+                                    </label>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="txt-headset1">
+                                    <h2><span>ROCCAT Vulcan 122</span> -  Interruptor táctil Titan | Bajo mantenimiento | Rendimiento puro con el interruptor desrebote | Teclado mecánico para juegos (interruptores), color marrón | Iluminación RGB por tecla con 52.5 ft de colores | Tecnología ROCCAT Easy-Shift[+]</h2>
+                                    <p>Precio: <span>US$ 159.99</span></p>
+                                    <h4>Sobre este articulo</h4>
+                                    <p>
+                                        <li>Tecnología: el rebote del interruptor se reduce gracias a los componentes de primera calidad, lo que permite al firmware reconocer la entrada más rápido</li>
+                                        <li>Teclas multimedia: las teclas multimedia de estilo mezclador y la rueda con LED integrados añaden un nivel de función sofisticada.</li>    
+                                        <li>Iluminación: alimentado por el sistema de iluminación inteligente AIMO, luces LED de larga duración junto con una carcasa de interruptor de llave transparente.</li>   
+                                       
+        
+    
+                                    </p>
+                                    </div>
+                        
+                    </section>
+                </div>
+             </div>
+        </div>
+<!---FOOTER-->
+<div id="about-us">
+<footer>
+    <div class="caja">
+         <div class="container-body">
+             <div class="columna1">
+                
+                 <h1>Sobre nosotros</h1>
+                  <div class="borde">
+                  
+                    </div>
+                    <p>Somos una tienda de perifericos gaming que te ayuda a encontrar lo que necesitas, nuestros perifericos traen una amplia especificaciones de cada una.</p>
+
+                     <div class="redes">
+                         <div class="row">
+                             <a href="https://www.facebook.com/jorgedavid.paz.5" <i class="fab fa-facebook-f"></i></a>
+                         </div>
+                         <div class="row">
+                             <a href="#" <i class="fab fa-twitter"></i></a>
+                             
+                         </div>
+                         <div class="row">
+                             <a href="https://www.instagram.com/jorgedavidgiron/?hl=es-la" <i class="fab fa-instagram"></i></a>
+                             
+                         </div>
+                 
+                     </div>
+             </div>
+          
+             <div class="columna3">
+
+                 <h1>Información</h1>
+                  <div class="borde">
+                   
+                  </div>
+                 <div class="row2">
+                     <i class="fas fa-map-marker-alt" style="margin-top: 40px; font-size: 30px;"></i>
+                     <label>La Ceiba, Calle CA-13 - esquina opuesta al punto de buses santa marta</label>
+                 </div>
+
+                 <div class="row2">
+                     <i class="fas fa-phone" style="margin-top: 10px; font-size: 20px";></i>
+                     <label>+504 9859-0618</label>
+                 </div>
+
+                 <div class="row2">
+                    <a href="https://www.google.com/intl/es-419/gmail/about/#"><i class="fas fa-envelope"  style="margin-top: 10px; font-size: 20px; color: black;"></i></a> 
+                      <label>jorge1giron18@gmail.com</label>
+                 </div>
+
+             </div>  
+                 
+             <div class="columna2">
+                 <h1>Enlaces</h1>
+                 <div class="borde">
+               
+                 </div>
+                 <a href="headset.html"><i class="fas fa-link"></i>Headset</a>
+                 <a href="Alfombrillas.html"><i class="fas fa-link"></i>Mouse-Pad</a>
+                 <a href="Monitor.html"><i class="fas fa-link"></i>Monitores</a>
+                 <a href="teclado.html"><i class="fas fa-link"></i>Teclado</a>
+                 <a href="mouse.html"><i class="fas fa-link"></i>Mouse</a>
+                 <a href="capturadora.html"><i class="fas fa-link"></i>Capturador</a>
+             </div>
+         </div>
+     </div>
+     
+     <div class="footer-bottom">
+            <div class="bottom">
+             <div class="copyright">
+                 Derechos Reservados &copy; 2020 | <a href="#">GamingPeriferics</a>
+            </div>
+             </div>
+         </div>    
+ </footer>
+</div>
+   <!---LINKS DE JS-->
+   <script src="links css/js/texto-animado.js"></script>
+   <script src="./links css/js/slider.js"></script>
+  <script src="./links css/js/menu.js"></script>
+  <script src="links css/js/main.js"></script>
+  <script src="links css/js/carrusel.js"></script>
+  <script src="links css/js/modal.js"></script>
+</body>
+</html>

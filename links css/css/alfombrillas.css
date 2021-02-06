@@ -1,0 +1,159 @@
+
+
+/*Codigo de la PAGINACION PRIMERA PARTE DE ALFOMBRILLAS RAZER  galería-slider**/
+
+.alfomb-ryzer1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="2.1"]:checked ~ .alfomb-ryzer1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="2.2"]:checked ~ .alfomb-ryzer1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="2.3"]:checked ~ .alfomb-ryzer1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE ALFOMBRILLAS RAZER  galería-slider**/
+
+.alfomb-ryzer2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="2.4"]:checked ~ .alfomb-ryzer2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="2.5"]:checked ~ .alfomb-ryzer2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="2.6"]:checked ~ .alfomb-ryzer2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION TERCERA PARTE DE ALFOMBRILLAS RAZER  galería-slider**/
+
+.alfomb-ryzer3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="2.7"]:checked ~ .alfomb-ryzer3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="2.8"]:checked ~ .alfomb-ryzer3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="2.9"]:checked ~ .alfomb-ryzer3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION PRIMERA PARTE DE ALFOMBRILLAS LOGITECH  galería-slider**/
+
+.alfomb-logitech1{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="2.10"]:checked ~ .alfomb-logitech1{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="2.11"]:checked ~ .alfomb-logitech1{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="2.12"]:checked ~ .alfomb-logitech1{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION SEGUNDA PARTE DE ALFOMBRILLAS LOGITECH  galería-slider**/
+
+.alfomb-logitech2{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="2.13"]:checked ~ .alfomb-logitech2{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="2.14"]:checked ~ .alfomb-logitech2{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="2.15"]:checked ~ .alfomb-logitech2{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+/*Codigo de la PAGINACION TERCERA PARTE DE ALFOMBRILLAS LOGITECH  galería-slider**/
+
+.alfomb-logitech3{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms; 
+   
+}
+input[id="2.16"]:checked ~ .alfomb-logitech3{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+
+input[id="2.17"]:checked ~ .alfomb-logitech3{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+   
+}
+
+
+input[id="2.18"]:checked ~ .alfomb-logitech3{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
